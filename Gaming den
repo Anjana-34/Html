@@ -1,0 +1,295 @@
+DOCTYPE html>
+<html>
+	<head>
+		<title>THE GAMING DEN</title>
+		<link rel="stylesheet" href="GameingDen.css">
+	</head>
+			<body>
+				<ul>
+					<li><a href="GameingDen.html">Home</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+				</ul>
+			<h1> Welcome TO THE GAMEING DEN !</h1>
+			<h2>Today Crazy Specials, Dont Miss Out !</h2>
+			
+			<table align="center">
+				
+				<tr>
+					<th>Name</th>
+					<th>Genere</th>
+					<th>Price</th>
+					<th>Platform</th>
+				</tr>
+					<tr>
+					<td>Anjana</td>
+					<td>sports</td>
+					<td>1000rs</td>
+					<td>Pc</td>
+				</tr>
+				<tr>
+					<td>Ankitha</td>
+					<td>Football</td>
+					<td>800rs</td>
+					<td>Pc</td>
+				</tr>
+				<tr>
+					<td>Priya</td>
+					<td>Vedio game</td>
+					<td>470rs</td>
+					<td>Pc</td>
+				</tr>
+
+				<tr>
+					<td>Anu</td>
+					<td>sports</td>
+					<td>700rs</td>
+					<td>Pc</td>
+				</tr>
+				</table>
+						<div class="footer">
+						<p> Copyright 2019</p>
+						</div> 
+	
+		</body>
+	</html>
+
+body{
+	background-image:url('../../Pictures/Saved Pictures/th.jpg');
+	background-repeat:no-repeat;
+	background-position: left-bottom;
+	background-size: 100% 100%;
+}
+ul{
+	
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background-color:#97F8EF;
+		text-align:center;
+}
+li{
+	float:left;
+	font-size:20px;
+}
+li a{
+	display:block;
+	color:white;
+	text-align: center;
+	padding:10px 30px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:white;
+	color:#97F8EF;
+}
+h1{
+	width:100%;
+	color:white;
+	font-family:Lato;
+	font-size:50px;
+	text-align:center;
+	text-shadow:1px 2px grey;
+}
+h2{
+	font-size:25px;
+	color:purple;
+	text-align:center;
+	margin-top:80px;
+	font-family:lato;
+}
+table{
+	font-family:lato;
+	border-collapse:collapse;
+	width:60%;
+	text-align:center;
+	margin-top:80px;
+}
+th{
+	font-size:20px;
+	text-align:left;
+	padding:8px;
+	background-color:#FFFF00;
+}
+td{
+	font-size:15px;
+	text-align:left;
+	padding:8px;
+}
+tr:nth-child(odd){
+	background-color:#00FF00;
+}
+tr:nth-child(even){
+	background-color:#3333FF;
+}
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:#FF6699;
+	color:white;
+	text-align:center;
+	
+}
+
+<!DOCTYPE> 
+	<html>
+
+		<head>
+		<link rel="stylesheet" href="events.css">
+		<title>Events |Gameing Den</title>
+		</head>
+
+			<body>
+			<div class="navbar">
+					<a href="GameingDen.html">Home</a>
+					<a href="events.html">Events</a>
+					<a href="contacts.html">Contacts</a>
+			</div>
+				<h1>Gaming Events </h1>
+					<h2>Ludo Challange</h2>
+						<h3>2 January 6pm(CAT)</h3>
+						<h3>3 April 6pm(CAT)</h3>
+						<h3>4 November 6pm(CAT)</h3>
+						
+							<div class="footer">
+								<p> Cipyrights</p>
+							</div>
+
+
+				</body>
+
+	</html>
+
+body{
+	
+	background-image:url('../../Pictures/Saved Pictures/th (3).jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0;
+}
+.navbar{
+	font-family:lato;
+	width:100%;
+	background-color:#DCF1C0;
+	overflow:auto;
+}
+.navbar a{
+	font-family:lato;
+	float:left;
+	padding:12px;
+	color:blue;
+	text-decoration:none;
+	font-size:27px;
+	width:31%;
+	text-align:center;
+}
+.navbar a:hover{
+	background-color:gray;
+}
+h1{
+	color:blue;
+	font-family:lato;
+	font-size:50px;
+	padding-top:0%;
+	padding-left:10%	
+}
+h2{
+	color:blue;
+	font-family:lato;
+	font-size:30;
+	padding-left:10%;
+	
+}
+h3{
+	
+	color:blue;
+	font-family:lato;
+	font-size:20px;
+	padding-left:10%;
+}
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:#CFE59A;
+	color:white;
+	text-align:center;
+}
+
+<!DOCTYPE>
+<html>
+	<head>
+	<link rel="stylesheet"href="contacts.css">
+		<title>Contact Us| Gaming Den</title>
+	</head>
+		<body>
+			<div class="sidenav">
+				<a href="GameingDen.html">Home</a>
+				<a href="events.html">Events</a>
+				<a href="contacts.html">Contacts</a>
+			</div>
+			<h1>Contact Us</h1>
+				<h2> landline:9999999999<br>
+					 Email:gamingden@dmail.com<br>
+					 location: Ludo King</h2>
+					 <div class="footer">
+					 <p> Copyright</p>
+					 </div>
+
+		</body>	
+		<div class="footer">
+		<p> Copyright</p>
+		</div>
+
+
+	</html>
+body{
+	background-image:url('../../Pictures/Saved Pictures/th (9).jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0%;
+}
+.sidenav{
+	
+	height:100%;
+	width:75px;
+	position:fixed;
+	background-color:#33BAE9;
+	overflow-x:hidden;
+	padding-top:30px;
+}
+.sidenav a{
+	font-size:15px;
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+.sidenav a:hover{
+	color:#A5D2C9;
+}
+h1{
+	font-size:45px;
+	padding-top:100px;
+	padding-left:40%;
+	font-family:lato;
+	color:black;
+}
+h2{
+	padding:50px;
+	padding-left:30%;
+	font-family:lato;
+	font-size:30px;
+}
+.footer{
+	padding-left:8px;
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	color:black;
+	text-align:center;	
+	
